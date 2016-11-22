@@ -560,7 +560,7 @@ section.home .intro{
 	margin-left: 2px;
 	margin-right: 2px;
 	margin-bottom: 10px;
-  	text-indent:-999;
+/*  	text-indent:-999;*/
 	height: 10px;
 	width: 10px;
 }
@@ -782,17 +782,17 @@ section.home .intro{
 	height: 150px;
 }
  
-.single-add{
+/*.single-add{
 	background: rgba(212,228,239,1);
-/* Old Browsers */background: -moz-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(203,222,235,1) 12%, rgba(198,218,233,1) 18%, rgba(182,207,226,1) 38%, rgba(171,200,221,1) 52%, rgba(161,193,216,1) 65%, rgba(155,189,213,1) 73%, rgba(134,174,204,1) 100%);
- /* FF3.6+ */background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212,228,239,1)), color-stop(12%, rgba(203,222,235,1)), color-stop(18%, rgba(198,218,233,1)), color-stop(38%, rgba(182,207,226,1)), color-stop(52%, rgba(171,200,221,1)), color-stop(65%, rgba(161,193,216,1)), color-stop(73%, rgba(155,189,213,1)), color-stop(100%, rgba(134,174,204,1)));
-/* Chrome, Safari4+ */background: -webkit-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(203,222,235,1) 12%, rgba(198,218,233,1) 18%, rgba(182,207,226,1) 38%, rgba(171,200,221,1) 52%, rgba(161,193,216,1) 65%, rgba(155,189,213,1) 73%, rgba(134,174,204,1) 100%);
- /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(203,222,235,1) 12%, rgba(198,218,233,1) 18%, rgba(182,207,226,1) 38%, rgba(171,200,221,1) 52%, rgba(161,193,216,1) 65%, rgba(155,189,213,1) 73%, rgba(134,174,204,1) 100%);
- /* Opera 11.10+ */background: -ms-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(203,222,235,1) 12%, rgba(198,218,233,1) 18%, rgba(182,207,226,1) 38%, rgba(171,200,221,1) 52%, rgba(161,193,216,1) 65%, rgba(155,189,213,1) 73%, rgba(134,174,204,1) 100%);
- /* IE 10+ */background: linear-gradient(to right, rgba(212,228,239,1) 0%, rgba(203,222,235,1) 12%, rgba(198,218,233,1) 18%, rgba(182,207,226,1) 38%, rgba(171,200,221,1) 52%, rgba(161,193,216,1) 65%, rgba(155,189,213,1) 73%, rgba(134,174,204,1) 100%);
-/* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );
-/* IE6-9 */
-}
+!* Old Browsers *!background: -moz-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(203,222,235,1) 12%, rgba(198,218,233,1) 18%, rgba(182,207,226,1) 38%, rgba(171,200,221,1) 52%, rgba(161,193,216,1) 65%, rgba(155,189,213,1) 73%, rgba(134,174,204,1) 100%);
+ !* FF3.6+ *!background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212,228,239,1)), color-stop(12%, rgba(203,222,235,1)), color-stop(18%, rgba(198,218,233,1)), color-stop(38%, rgba(182,207,226,1)), color-stop(52%, rgba(171,200,221,1)), color-stop(65%, rgba(161,193,216,1)), color-stop(73%, rgba(155,189,213,1)), color-stop(100%, rgba(134,174,204,1)));
+!* Chrome, Safari4+ *!background: -webkit-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(203,222,235,1) 12%, rgba(198,218,233,1) 18%, rgba(182,207,226,1) 38%, rgba(171,200,221,1) 52%, rgba(161,193,216,1) 65%, rgba(155,189,213,1) 73%, rgba(134,174,204,1) 100%);
+ !* Chrome10+,Safari5.1+ *!background: -o-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(203,222,235,1) 12%, rgba(198,218,233,1) 18%, rgba(182,207,226,1) 38%, rgba(171,200,221,1) 52%, rgba(161,193,216,1) 65%, rgba(155,189,213,1) 73%, rgba(134,174,204,1) 100%);
+ !* Opera 11.10+ *!background: -ms-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(203,222,235,1) 12%, rgba(198,218,233,1) 18%, rgba(182,207,226,1) 38%, rgba(171,200,221,1) 52%, rgba(161,193,216,1) 65%, rgba(155,189,213,1) 73%, rgba(134,174,204,1) 100%);
+ !* IE 10+ *!background: linear-gradient(to right, rgba(212,228,239,1) 0%, rgba(203,222,235,1) 12%, rgba(198,218,233,1) 18%, rgba(182,207,226,1) 38%, rgba(171,200,221,1) 52%, rgba(161,193,216,1) 65%, rgba(155,189,213,1) 73%, rgba(134,174,204,1) 100%);
+!* W3C *!filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );
+!* IE6-9 *!
+}*/
 
 .single-add h4 {
 	color: #fff;
@@ -1482,7 +1482,6 @@ section.social-icons{
   -moz-border-right-colors: none;
   -moz-border-top-colors: none;
   background-color: #8ec63f;
-  border-color: -moz-use-text-color -moz-use-text-color #8aaa63;
   border-image: none;
   border-style: none none solid;
   border-width: 0 0 2px;
@@ -1534,7 +1533,7 @@ section.social-icons{
 }
 
 .sidebar .single-add{
-	padding: 15px; 20px;
+	padding: 15px 20px;
 	margin-bottom: 20px;
 }
 
@@ -1639,7 +1638,6 @@ section.social-icons{
 	-moz-border-right-colors: none;
 	-moz-border-top-colors: none;
 	background-color: #8ad2ce;
-	border-color: -moz-use-text-color -moz-use-text-color #63b5b2;
 	border-image: none;
 	border-style: none none solid;
 	border-width: 0 0 2px;
@@ -1721,7 +1719,7 @@ section.social-icons{
   -moz-border-right-colors: none;
   -moz-border-top-colors: none;
   background-color: #8ad2ce;
-  border-color: -moz-use-text-color -moz-use-text-color #63b5b2;
+  border-color:  #63b5b2;
   border-image: none;
   border-style: none none solid;
   border-width: 0 0 2px;
