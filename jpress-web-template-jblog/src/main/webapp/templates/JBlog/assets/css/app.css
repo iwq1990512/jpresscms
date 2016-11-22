@@ -1440,14 +1440,14 @@ a.x-a-active:hover{
 .jblog-nav-content ul li{
 	float:left;
 	text-align:center;
-	margin-right:2rem;
+	margin-right:0.1rem;
 	
 }
 .jblog-nav-content ul li a{
     width: 110px;
     height: 48px;
     display: block;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
     color: #fcfdff;
     line-height: 48px;
@@ -1456,10 +1456,10 @@ a.x-a-active:hover{
     width: 110px;
     height: 48px;
     display: block;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
-    color: #000;
     line-height: 48px;
+    text-decoration:none;
     background: url(../images/xtb.png) no-repeat 2px -256px;
 }
 .jblog-rss-content{
@@ -1559,8 +1559,8 @@ a.x-a-active:hover{
 	width: 1120px;
 	margin:0 auto;
 	overflow: hidden;
-	height:6rem;
-	line-height: 6rem;
+	height:4rem;
+	line-height: 4rem;
 }
 .jblog-link-logo-image{
 	width: 50%;
@@ -1729,8 +1729,8 @@ a.x-a-active:hover{
     }
     .jblog-nav-content li{
         width: auto;
-        margin-right:1rem;
-        margin-left:1rem;
+        margin-right:0.2rem;
+        margin-left:0.2rem;
     }
     .jblog-link-logo-image {
     width: 100%;
